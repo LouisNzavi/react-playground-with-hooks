@@ -1,5 +1,7 @@
 import Count from "./components/Count";
 import Text from "./components/Text";
+import Basic from "./components/Basic";
+import Super from "./components/Super";
 import "./App.css";
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
       <Count />
       <Text />
+      <Basic />
+      <Super />
     </div>
   );
 }
